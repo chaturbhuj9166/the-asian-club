@@ -1,0 +1,1254 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins";
+}
+
+#one{
+    background-color: rgb(0, 0, 0);
+    padding: 10px 30px;
+    width: 100%;
+    height: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.chin
+{
+    
+}
+
+.chin p
+{
+    color: white;
+    font-size: 22px;
+    cursor: pointer;
+}
+
+.chin p span
+{
+    color: red;
+}
+
+.maini 
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    width: 45%;
+    margin: 0 50px;
+    
+}
+
+.chin1
+{
+    width: 52px;
+    height: 40px;
+    border-radius: 46%;
+    border: 1px solid white;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.chin1 span i
+{
+    color: white;
+    font-size: 22px;
+    padding: 5px 12px;
+
+}
+
+
+.buton
+{
+    background-color: red;
+    width: 80%;
+    text-align: center;
+    color: white;
+    padding: 3px 10px;
+    border-radius: 10px;
+
+}
+
+.buton h3
+{
+    font-size: 17px ;
+    font-weight: 400;
+}
+
+.buton h3 span i
+{
+    padding: 0 9px 0 0;
+}
+
+.backimage5
+{
+    width: 100%;
+    height: 800px;
+    z-index: -1;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.backimage5 img
+{
+    width: 100%;
+    height: 100%;
+}
+
+.ciz
+{
+    z-index: 1;
+    position: absolute;
+    top: 5px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center ;
+}
+
+.ciz ul
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.ciz ul li 
+{
+    list-style: none;
+    padding: 10px 20px;
+}
+
+.ciz ul li a
+{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+
+input
+{
+    padding: 9px 0 9px 10px;
+    margin: 0 0 0 20px;
+}
+
+.nam
+{
+    /* margin: 20px 0 0 20px; */
+    display: flex;
+    align-items: center;
+}
+
+.nam input
+{
+    width:450px;
+    border: .5px solid rgba(0, 0, 0, 0.632);
+    border-radius: 8px;
+}
+
+.nam i
+{
+    color: black;
+    position: absolute;
+    top: 18px;
+    right: 20px;
+}
+
+.imagecotet
+{
+    width: 400px;
+    height: 280px;
+    background-color: rgba(0, 0, 0, 0.539);
+    padding: 40px 30px;
+    border-radius: 20px;
+    color: white;
+    position: absolute;
+    /* text-align: center; */
+    left: 70px;
+    top: 160px;
+    
+}
+
+.imagecotet h3
+{
+    margin: 0 0 20px;
+}
+
+.imagecotet h2
+{
+    margin: 0 0 20px;
+    font-size: 30px;
+}
+
+.imagebuton button 
+{
+    padding: 5px 10px;
+    border-radius: 30px;
+}
+
+.imagebuton button a
+{
+    color: red;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.imagedba {
+    border-radius: 10px;
+    border: 2px solid white;
+    width: 270px;
+    height: 400px;
+}
+
+.imagedba img
+{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+
+}
+
+.part2
+{
+    width: 100%;
+    height: 500px;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 0 20px;
+}
+
+.who
+{
+    width: 50%;
+    /* margin: 0 20px; */
+}
+
+.who h5
+{
+    color: red;
+    margin: 0 0 10px;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.who h5 span
+{
+    color: white;
+}
+
+.dba
+{
+    width: 100px;
+    height: 5px;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.53);
+    font-size: 200px;
+}
+
+.who p
+{
+    color: white;
+    text-align: justify;
+}
+
+.part3
+{
+    width: 100%;
+}
+
+.dba2
+{
+    background-color: rgb(194, 194, 194);
+    width: 90%;
+    height: 850px;
+    margin: 50px auto;
+    
+}
+
+.main
+{
+    display: flex;
+    align-items: top;
+    justify-content: space-between;
+    padding: 20px 30px 10px;
+}
+
+.main1{
+    width: 100px;
+    font-size: 25px;
+    line-height: 30px;
+}
+
+.main3{
+    /* width: 100px; */
+    font-size: 25px;
+    margin-right: 300px;
+}
+
+.bigimg {
+    background-image: url("pitch\ -\ Copy.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 380px;
+    padding-bottom: 10px;
+    margin: 0 30px;
+    position: relative;
+}
+.midbig
+{
+    background-color: rgba(0, 0, 0, 0.553);
+    width: 100%;
+    height: 380px;    
+}
+.unhed
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.dba1main
+{
+    margin-top: 110px;
+}
+.dba1main span h6
+{
+ color: rgb(179, 220, 255);
+ font-weight: 500;
+font-size: 15px;
+margin: 0px 112px;
+}
+
+.dba1main span
+{
+    color: white;
+    margin: 0 112px;
+    
+}
+
+
+.uphed
+{
+    width: 100%;
+    text-align: center;
+    background-color: red;
+    padding: 8px;
+    color: white;
+}
+
+.logo1
+{
+    width: 60px;
+}
+
+.logo1 img
+{
+    width: 100%;
+    height: 100%;
+}
+
+.imgbox2
+{
+    color: white;
+    width: 80px;
+}
+
+.sopu
+{
+    background-color: red;
+    color: white;
+    width: 50px;
+    height: 40px;
+    text-align: center;
+    font-size: 30px;
+    padding: 5px;
+}
+.mlist
+{
+    width: 90%;
+    height: 130px;
+    background-color: rgba(174, 174, 174, 0.84);
+    margin: 0 20px 20px;
+}
+/* 
+
+{
+    width: 40%;
+    height: 130px;
+    background-color: rgba(174, 174, 174, 0.84);
+} */
+
+.mhead
+{
+    background-color: gainsboro;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 10px 0;
+    
+}
+
+.mcontet
+{
+    display: flex;
+    align-items: top;
+    justify-content: space-evenly;
+    padding: 10px 0 30px;
+    gap: 10px;
+}
+
+.vs
+{
+    background-color: red;
+    color: white;
+    width: 50px;
+    height: 40px;
+    text-align: center;
+    font-size: 30px;
+    padding: 5px;
+}
+
+.Ronaldo
+{
+    width: 90px;
+}
+
+.part4
+{
+    display: flex;
+    align-items: top;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+.hdlist
+{
+    width: 100%;
+    /* margin-left: 90px; */
+}
+
+.part5
+{
+    width: 90%;
+    position: relative;
+    margin: 0 auto;
+
+}
+
+.ul1
+{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 60px;
+
+}
+
+.ul1 ul 
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 20px;
+}
+
+.ul1 ul li
+{
+    list-style: none;
+    padding: 0 20px;
+}
+
+.ul1 ul li a
+{
+    text-decoration: none;
+    color: black ;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.ul1 ul li:nth-of-type(1)  a
+{
+    text-decoration: none;
+    color: rgb(255, 0, 0) ;
+    text-decoration: underline;
+    font-weight: 600;
+    font-size: 25px;
+}
+
+.mediabox
+{
+    width: 100%;
+    margin: 20px 0px;
+}
+
+.media2
+{
+    width: 300px;
+    height: 350px;
+    position: relative;
+}
+
+.media2 img
+{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.media2 span i
+{
+    position: absolute;
+    top: 8px;
+    right: 10px;
+    font-size: 25px;
+    padding: 5px 10px;
+    color: white;
+    background-color: red;
+    border-radius: 5px;
+}
+
+
+.media3
+{
+    width: 300px;
+    height: 350px;
+    position: relative;
+}
+
+.media3 img
+{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.media3 span i
+{
+    position: absolute;
+    top: 8px;
+    right: 10px;
+    font-size: 25px;
+    padding: 5px 10px;
+    color: white;
+    background-color: red;
+    border-radius: 5px;
+
+}
+
+.media22
+{
+    width: 300px;
+    height: 700px;
+    position: relative;
+}
+
+.media22 img
+{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.media22 span i
+{
+    position: absolute;
+    top: 8px;
+    right: 10px;
+    font-size: 25px;
+    padding: 5px 10px;
+    color: white;
+    background-color: red;
+    border-radius: 5px;
+
+}
+.mediabox1
+{
+    display: flex;
+    align-items: top;
+    justify-content: center;
+}
+.media4
+{
+    width: 510px;
+    height: 350px;
+    position: relative;
+}
+.media4 img
+{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.media4 span i
+{
+    position: absolute;
+    top: 8px;
+    right: 10px;
+    font-size: 25px;
+    padding: 5px 10px;
+    color: white;
+    background-color: red;
+    border-radius: 5px;
+
+}
+.media5
+{
+    width: 295px;
+    height: 350px;
+    position: relative;
+}
+
+.media5 img
+{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.media5 span i
+{
+    position: absolute;
+    top: 8px;
+    right: 10px;
+    font-size: 25px;
+    padding: 5px 10px;
+    color: white;
+    background-color: red;
+    border-radius: 5px;
+
+}
+
+.media6
+{
+    width: 295px;
+    height: 350px;
+    position: relative;
+}
+
+.media6 img
+{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.media6 span i
+{
+    position: absolute;
+    top: 8px;
+    right: 10px;
+    font-size: 25px;
+    padding: 5px 10px;
+    color: white;
+    background-color: red;
+    border-radius: 5px;
+
+}
+
+.media11
+{
+    width: 510px;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    bottom: 0;
+    right: 14px;
+}
+
+.part6
+{
+    width: 90%;
+    margin: 10px auto 40px;
+}
+
+.pimg
+{
+    width: 20%;
+    height: 300px;
+    position: relative;
+}
+
+.pimg img
+{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.pinfo
+{
+    width: 300px;
+    padding: 10px 20px;
+    background-color: black;
+    color: red;
+    position: absolute;
+    rotate: 270deg;
+    z-index: 1;
+    top: 125px;
+    right: -125px;
+    text-align: center;
+}
+
+.pinfo h4
+{
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.plhead
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.ankback
+{
+    background-image: url("players\ background.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 800px;
+    padding-bottom: 1px;
+    position: relative;
+    margin: 10px auto 20px ;
+
+
+}
+
+.pointbox
+{
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.527);
+    width: 100%;
+    height: 800px;
+    top: 0;
+    left: 0;
+}
+
+.season
+{
+    width: 90%;
+    margin: 20px auto;
+    display: flex;
+    align-items: top;
+    justify-content: space-between ;
+}
+
+.playertalika
+{
+    width: 50%;
+
+}
+
+.playerhedding
+{
+    padding-bottom: 20px;
+    color: white;
+    padding-top: 50px;
+    font-size: 20px;
+    display: flex;
+    align-items: top;
+    justify-content: space-between;
+}
+
+.ank
+{
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.ank ul
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.ank ul li
+{
+    list-style: none;
+    padding: 10px 9px;
+}
+
+.ank ul li a
+{
+    color: white;
+    text-decoration: none;
+}
+
+.ank ul li:nth-of-type(1) a
+{
+    color: red;
+    text-decoration: underline;
+}
+
+.pointpicback {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 580px;
+}
+
+.dholi
+{
+    background-color: rgba(255, 255, 255, 0.480);
+    width: 100%;
+    height: 580px;
+    position: relative;
+}
+
+.dholipic
+{
+    position: absolute;
+    left: 0;
+    top: -5px;
+}
+
+.dholipic img
+{
+    width: 100%;
+    height: 100%;
+}
+
+.dholiphoto
+{
+    position: absolute;
+    right: 40px;
+    top: 30%;
+    width: 30%;
+}
+
+.dholiphoto h1
+{
+    color: red;
+    font-size: 55px;
+}
+
+.dholiphoto h2
+{
+    font-size: 35px;
+
+}
+
+.dholiphoto p
+{
+    font-size: 12px;
+}
+
+.dholiphoto button
+{
+    background-color: red;
+    padding: 10px 25px;
+    border: none;
+    border-radius: 25px;
+}
+
+.dholiphoto button a
+{
+    color: white;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+.pointstalika
+{
+    width: 40%;
+}
+
+.talibox
+{
+    background-color: red;
+    padding: 15px 25px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: white;
+    border-top: 1.5px solid black;
+}
+.talibox h4
+{
+    width: 25%;
+    font-weight: 700;
+}
+
+.talibox p
+{
+    text-align: left;
+    font-weight: 700;
+
+}
+
+
+.talibox1
+{
+    background-color: white;
+    padding: 15px 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: black;
+    border-top: 1.5px solid black;
+
+}
+
+.talibox1 h4
+{
+    width: 25%;
+    font-weight: 700;
+
+}
+
+.talibox1 p
+{
+    text-align: center;
+    font-weight: 700;
+
+}
+
+.dukan h1
+{
+    padding: 0 20px 10px;
+}
+
+.dukan h2
+{
+    padding: 0 20px 10px;
+}
+
+.part7box
+{
+    width: 22%;
+    /* height: 500px; */
+    border: 1px solid black;
+}
+
+.part7pic
+{
+    width: 100%;
+    height: 250px;
+    border: 2px solid black;
+}
+
+.part7pic img
+{
+    width: 100%;
+    height: 100%;
+    /* object-fit: cover; */
+}
+
+.part7hedding
+{
+    width: 90%;
+    margin: 10px auto 30px;
+}
+
+.part7hedding h3 span
+{
+    margin-left: 115px;
+}
+
+.part7hedding p
+{
+    text-align: justify;
+}
+
+.part7
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 5px auto;
+    width: 90%;
+}
+
+.dukan
+{
+    width: 90%;
+    margin: 10px 40px;
+}
+
+.win
+{
+    width: 100%;
+    margin: 30px auto;
+
+}
+
+.winhed
+{
+    background-color: black;
+    padding: 20px;
+}
+
+.winhed h2
+{
+    color: red;
+    text-align: center;
+    /* padding: 30px auto; */
+
+}
+
+.winhed h2 span
+{
+    color: white;
+}
+
+.winpics
+{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.winpic
+{
+    width: 25%;
+    height: 250px;
+}
+
+.winpic img
+{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.part8
+{
+    width: 90%;
+    margin: 40px auto;
+}
+
+.piche {
+    background-image: url("backimg2.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 580px;
+    margin-bottom: 20px;
+}
+
+.pichebox
+{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.623);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.backbox
+{
+    width: 22%;
+    color: white;
+    text-align: center;
+}
+
+.backbox h1
+{
+    color: red;
+    font-weight: 550;
+    text-align: center;
+    font-size: 39px;
+    margin: 0 0 5px;
+    
+}
+
+.backbox h1 span
+{
+    color: white;
+}
+
+.backbox button
+{
+    padding: 10px 30px ;
+    background-color: white;
+    border-radius: 20px;
+    margin: 0 0 10px;
+}
+
+.backbox button a
+{
+    color: red;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.backbox h3
+{
+    font-weight: 500;
+    font-size: 20px;
+    text-align: center;
+}
+
+footer
+{
+    width: 100%;
+    background-color: black;
+    height: 500px;
+
+}
+
+.antim
+{
+    width: 90%;
+    display: flex;
+    align-items: top;
+    justify-content: space-between;
+    margin: 20px auto;
+}
+
+.loginfo
+{
+    width: 30%;
+}
+
+.antim1
+{
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.antimpic
+{
+    width: 50%;
+    border-radius: 50%;
+}
+
+.antimpic img
+{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.nem
+{
+    width: 30%;
+    flex-direction: column;
+}
+
+.nem h1
+{
+    font-weight: 500;
+}
+
+.nem h2
+{
+    color: red;
+    margin-left: 50px;
+    font-weight: 500;
+}
+
+.nem h3
+{
+    margin-left:80px; 
+    font-weight: 500;
+}
+
+.lastinfo1 
+{
+    color: white;
+    padding: 20px;
+}
+
+.lastinfo1 h6
+{
+    font-size: 17px;
+
+}
+
+.lastinfo1 p
+{
+    text-align: justify;
+}
+
+
+.hed
+{
+    width: 10%;
+    color: white;
+    margin: 40px 0 ;
+}
+
+.hed h1 a
+{
+    color: red;
+    text-decoration: underline;
+}
+
+.part9
+{
+    width: 30%;
+    color: white;
+    margin: 40px 0 ;
+
+}
+
+.part9 h1 a
+{
+    color: red;
+    text-decoration: underline;
+}
+
+.part9 ul li
+{
+    list-style: none;
+}
+
+.part9 ul li:nth-of-type(1) 
+{
+    text-align: justify;
+    margin: 0 0 10px;
+}
+
+.part9 ul li:nth-of-type(1) span
+{
+    margin-right: 20px;
+}
+
+.part9 ul li:nth-of-type(2) 
+{
+    text-align: justify;
+    margin: 0 0 10px;
+}
+
+.part9 ul li:nth-of-type(2) span
+{
+    margin-right: 20px;
+}
+
+.part9 ul li:nth-of-type(3) 
+{
+    text-align: justify;
+    margin: 0 0 10px;
+}
+
+.part9 ul li:nth-of-type(3) span
+{
+    margin-right: 20px;
+}
